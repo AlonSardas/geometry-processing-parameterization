@@ -410,7 +410,7 @@ $\mathbf{S}$.
 
 
 **_Achtung!_** A naive implementation of 
-$\frac{1}{2} \sum\limits_{\{i,j\} \in \partial \mathbf{S}} \left\Vert \mathbf{u}_i - \mathbf{u}_j \right\Vert$
+$\frac{1}{2} \sum_{\{i,j\} \in \partial \mathbf{S}} \left\Vert \mathbf{u}_i - \mathbf{u}_j \right\Vert$
 into matrix form $\mathbf{U}^{\mathsf T} \mathbf{A} \mathbf{U}$ will likely produce an
 _asymmetric_ matrix $\mathbf{A}$. From a theoretical point of view, this is fine.
 $\mathbf{A}$ just needs to compute the signed area of the flattened mesh. However, from
