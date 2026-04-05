@@ -1,10 +1,11 @@
 add_executable(run_tests
-    test_lscm.cpp
+  test_lscm.cpp
+  test_tutte.cpp
 )
 
 target_link_libraries(run_tests
-    core
-    GTest::gtest_main
+  core
+  GTest::gtest_main
 )
 
 include(GoogleTest)

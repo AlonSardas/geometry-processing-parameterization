@@ -146,7 +146,7 @@ w_{ij} & \text{ if $i\ne j$ and $\exists  \\{ij\\} \in  \mathbf{E}$, }\\
 $$
 
 
-> #### What's up with the $\mathop{\text{tr}}{\left(\right)}$ in the energy?
+> #### What's up with the $\mathop{\text{tr}}{\left(\right) }$ in the energy?
 >
 > The degrees of freedom in our optimization are a collected in the _matrix_
 > $\mathbf{U} \in  \mathbb{R}^{n\times 2}$ with two columns. The energy is written as the
@@ -409,7 +409,7 @@ $u$- and $v$-coordinates of the mapping in $\mathbf{U} \in  \mathbb{R}^{2n}$ and
 $\mathbf{S}$. 
 
 
-**_Achtung!_** A naive implementation of $\frac12  \sum \limits_{\{i,j\} \in  \partial \mathbf{S}} \| \mathbf{u}_i \mathbf{u}_j \|$ into matrix form $\mathbf{U}^{\mathsf T} \mathbf{A} \mathbf{U}$ will likely produce an
+**_Achtung!_** A naive implementation of $\frac12  \sum\limits\_{\{i,j\} \in  \partial \mathbf{S}} \| \mathbf{u}_i\  \mathbf{u}_j \|$ into matrix form $\mathbf{U}^{\mathsf T} \mathbf{A} \mathbf{U}$ will likely produce an
 _asymmetric_ matrix $\mathbf{A}$. From a theoretical point of view, this is fine.
 $\mathbf{A}$ just needs to compute the signed area of the flattened mesh. However, from
 a numerical methods point of view we will almost always need our quadratic
