@@ -271,7 +271,7 @@ where $| \mathbf{X} | = \det{\mathbf{X}}$ for a square matrix $\mathbf{X}$.
 > substitution](https://en.wikipedia.org/wiki/Integration_by_substitution) when
 > multivariate functions are involved.
 
-It is tempting to try to throw this equality into a least squares energy an
+It is tempting to try to throw this equality into a least squares energy and
 minimize it. Unfortunately the determinant is already a quadratic function of
 $u$ and $v$ so a least-squares energy would be quartic and minimizing it would
 be non-trivial. In the deformation assignment, we consider area-distortion
@@ -360,7 +360,8 @@ $$
 \frac{\partial u}{\partial x} & \frac{\partial u}{\partial y} \\
 \frac{\partial v}{\partial x} & \frac{\partial v}{\partial y} 
 \end{array}
-\right| \ dA &= 
+\right| 
+\ dA &= 
 \int_{\left(\begin{array}{c}u(\mathbf{S}) \\\\ v(\mathbf{S}) \end{array}\right)} 1 \ dA,
 \end{align*}
 $$
