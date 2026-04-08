@@ -476,8 +476,7 @@ solution.  If we're really unlucky, then we might choose two vertices that the
 energy would rather like to place near each other and so placing them at
 arbitrary positions will introduce unnecessary distortion (i.e., high energy).
 
-Instead we would like [natural boundary
-conditions](https://en.wikipedia.org/wiki/Natural_boundary_condition) (not to
+Instead we would like natural boundary conditions (not to
 be confused with [Neumann boundary
 conditions](https://en.wikipedia.org/wiki/Neumann_boundary_condition)). Natural
 boundary conditions minimize the given energy in the absence of explicit (or
